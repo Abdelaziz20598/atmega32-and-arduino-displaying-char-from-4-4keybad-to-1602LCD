@@ -19,7 +19,7 @@
 
 u8 keypad_u8checkPress(u8 copy_u8Port) {
 	
-	u8 Row , Coloumn , x , Return_val; 
+	u8 Row , Coloumn , x , Return_val = NOT_PRESSED; 
 	for ( Coloumn = 0 ; Coloumn < 4 ; Coloumn ++) 
 	{
 		
