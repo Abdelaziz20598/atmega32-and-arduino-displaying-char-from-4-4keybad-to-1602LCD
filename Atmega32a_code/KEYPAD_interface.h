@@ -17,7 +17,7 @@
 #define  GPIOD    3
 
 
-
+#define NOT_PRESSED 0xff
 u8 keypad_u8checkPress(u8 copy_u8Port) ; 
 
 
